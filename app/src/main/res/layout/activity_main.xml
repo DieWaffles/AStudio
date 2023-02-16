@@ -11,6 +11,8 @@
 
     <TextView
         android:id="@+id/viewTop"
+        android:textSize="50dp"
+        android:textAlignment="textEnd"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintVertical_weight=".3"
@@ -26,9 +28,10 @@
         android:text="0"
         android:textSize="100dp"
         android:textAlignment="textEnd"
+        android:autoSizeTextType="uniform"
         android:textColor="@color/white"
         android:layout_height="0dp"
-        app:layout_constraintVertical_weight=".25"
+        app:layout_constraintVertical_weight=".35"
         app:layout_constraintTop_toBottomOf="@+id/viewTop"
         app:layout_constraintBottom_toTopOf="@id/acBut"
         app:backgroundTint="@null"
@@ -37,6 +40,7 @@
     <Button
         android:id="@+id/acBut"
         android:text="AC"
+        android:textColor="@color/black"
         android:background ="@drawable/lightgrey_button"
         android:textSize="30dp"
         android:layout_width="0dp"
@@ -55,6 +59,7 @@
     <Button
         android:id="@+id/plusMinusBut"
         android:text="+/-"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:background ="@drawable/lightgrey_button"
         android:layout_width="0dp"
@@ -72,6 +77,7 @@
         android:id="@+id/percBut"
         android:text="%"
         android:textSize="30dp"
+        android:textColor="@color/black"
         android:background ="@drawable/lightgrey_button"
         android:layout_width="0dp"
         android:layout_height="0dp"
