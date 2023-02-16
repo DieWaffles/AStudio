@@ -8,12 +8,12 @@ import android.widget.TextView
 import android.widget.Button
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+    lateinit var textView : TextView
 
-    //var textView: TextView = findViewById(R.id.viewText)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        textView = findViewById(R.id.viewText)
         val butZero: Button = findViewById(R.id.zeroBut)
         butZero.setOnClickListener(this)
         val butOne: Button = findViewById(R.id.oneBut)
@@ -53,9 +53,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-
         when(v?.id){
-            R.id.oneBut -> print("one")
+            R.id.oneBut -> textView.setText("1")
             else -> print("no button")
         }
     }
