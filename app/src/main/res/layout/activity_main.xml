@@ -82,8 +82,8 @@
         app:layout_constraintTop_toTopOf="@+id/acBut"
         app:layout_constraintLeft_toRightOf="@+id/plusMinusBut"
         app:layout_constraintRight_toLeftOf="@+id/divisionBut"
-        app:layout_constraintBottom_toBottomOf="@id/acBut"        />
-
+        app:layout_constraintBottom_toBottomOf="@id/acBut"
+        />
     <Button
         android:id="@+id/divisionBut"
         android:text="\u00f7"
@@ -207,7 +207,8 @@
         app:layout_constraintLeft_toLeftOf="@id/nineBut"
         app:layout_constraintRight_toRightOf="@id/nineBut"
         app:layout_constraintBottom_toBottomOf="@id/fourBut"
-        app:layout_constraintTop_toTopOf="@+id/fourBut"/>
+        app:layout_constraintTop_toTopOf="@+id/fourBut"
+        />
     <Button
         android:id="@+id/minusBut"
         android:text="-"
@@ -221,8 +222,8 @@
         app:layout_constraintLeft_toLeftOf="@id/multBut"
         app:layout_constraintRight_toRightOf="@id/multBut"
         app:layout_constraintBottom_toBottomOf="@id/fourBut"
-        app:layout_constraintTop_toTopOf="@+id/fourBut"/>
-
+        app:layout_constraintTop_toTopOf="@+id/fourBut"
+        />
     <Button
         android:id="@+id/oneBut"
         android:text="1"
